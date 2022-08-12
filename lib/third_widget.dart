@@ -225,7 +225,7 @@ class _ThirtPageState extends State<ThirtPage> {
               const SizedBox(
                 height: 400,
               ),
-              TextButton(onPressed: () {}, child: const Text(' + New List'))
+              TextButton(onPressed: () {openList();}, child: const Text(' + New List'))
             ],
           )),
         ),
